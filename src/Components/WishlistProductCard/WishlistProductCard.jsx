@@ -194,7 +194,7 @@ export default function WishlistProductCard({ productdetails })
                         <h4>{bookName}</h4>
                     </div>
                     <h5 className="item-author">- By  &nbsp;{author}</h5>
-                    <p><b>Rs. {discountedPrice}   &nbsp;&nbsp;</b><del>Rs. {originalPrice}</del> &nbsp;&nbsp;
+                    <p><b>Kes. {discountedPrice}   &nbsp;&nbsp;</b><del>Kes. {originalPrice}</del> &nbsp;&nbsp;
                         <span className="discount-on-card">({discountPercent}% off)</span>
                     </p>
                     <div className="card-button">

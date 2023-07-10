@@ -157,7 +157,7 @@ function ProductPage()
                     <p><b>Author : </b> &nbsp;&nbsp; <span>{author}</span> </p>
                     <p className="item-description"><b>Description : </b> &nbsp;&nbsp; <span>{description}</span> </p>
                     <p className="item-rating"><b>Rating : </b> &nbsp;&nbsp; <span>{rating}</span> </p>
-                    <h3 className="item-price-details">Rs. {discountedPrice} &nbsp;&nbsp;<del>Rs. {originalPrice}</del> &nbsp;&nbsp;
+                    <h3 className="item-price-details">Kes. {discountedPrice} &nbsp;&nbsp;<del>Kes. {originalPrice}</del> &nbsp;&nbsp;
                         <span className="discount-on-item">({discountPercent}% off)</span>
                     </h3>
                     {
