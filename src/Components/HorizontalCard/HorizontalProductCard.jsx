@@ -151,7 +151,7 @@ function HorizontalProductCard({productDetails})
                 <h4 id="item-title">{bookName}</h4>
                 <p className="item-author">- By &nbsp;{author}</p>
                 <p className="price-details">
-                                &#8377; {discountedPrice} &nbsp;&nbsp;<del>&#8377; {originalPrice}</del> &nbsp;&nbsp;
+                                {discountedPrice} &nbsp;&nbsp;<del>{originalPrice}</del> &nbsp;&nbsp;
                     <span className="discount-on-card">{discountPercent}% off</span>
                 </p>
     
