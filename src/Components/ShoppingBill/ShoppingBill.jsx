@@ -112,7 +112,7 @@ function ShoppingBill()
                                 <p>X {product.quantity}</p>
                             </div>
                             <div className="cart-item-total-price" id="price-sum">
-                                <p>&#8377;{product.discountedPrice * product.quantity}</p>
+                                <p> {product.discountedPrice * product.quantity}</p>
                             </div>
                         </div>
                     )
@@ -126,7 +126,7 @@ function ShoppingBill()
                     <p>Discount</p>
                 </div>
                 <div className="cart-item-total-discount-amount" id="price-sum">
-                    <p>&#8377; {totalDiscount}</p>
+                    <p>; {totalDiscount}</p>
                 </div>
             </div>
 
@@ -135,7 +135,7 @@ function ShoppingBill()
                     <p>Delivery Charges</p>
                 </div>
                 <div className="cart-item-total-delivery-charges-amount" id="price-sum">
-                    <p id="delivery-charges">&#8377; 50</p>
+                    <p id="delivery-charges"> 50</p>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@ function ShoppingBill()
                     <p><b>Total Charges</b></p>
                 </div>
                 <div className="cart-item-total-delivery-charges-amount" id="price-sum">
-                    <p id="total-charges"><b>&#8377; {finalBill}</b></p>
+                    <p id="total-charges"><b> {finalBill}</b></p>
                 </div>
             </div>
 
