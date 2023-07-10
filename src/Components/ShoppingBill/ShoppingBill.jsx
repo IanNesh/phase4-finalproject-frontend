@@ -126,7 +126,7 @@ function ShoppingBill()
                     <p>Discount</p>
                 </div>
                 <div className="cart-item-total-discount-amount" id="price-sum">
-                    <p>; {totalDiscount}</p>
+                    <p>{totalDiscount}</p>
                 </div>
             </div>
 
